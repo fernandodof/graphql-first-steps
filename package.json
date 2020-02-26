@@ -1,0 +1,29 @@
+{
+  "name": "graphql-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore data/ app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandodof/graphql-first-steps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandodof/graphql-first-steps/issues"
+  },
+  "homepage": "https://github.com/fernandodof/graphql-first-steps#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "notarealdb": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
