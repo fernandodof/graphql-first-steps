@@ -1,5 +1,10 @@
+const db = require('./database');
+
 const Query = {
-    hello: () => 'Hello world!',
-}
+    users: () => {
+        return db.users.list();
+    },
+    user: (root, { id }) => db.users.get(id)
+};
 
 module.exports = { Query };

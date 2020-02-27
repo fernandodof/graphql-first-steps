@@ -1,1 +1,130 @@
-{}
+[
+    {
+        "id": "1",
+        "name": "Marcel Giannasi",
+        "description": "Nulla facilisi.",
+        "email": "mgiannasi0@whitehouse.gov",
+        "age": 26,
+        "followers": [
+            "2",
+            "5",
+            "4",
+            "10"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Barney Macauley",
+        "description": "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
+        "email": "bmacauley1@goodreads.com",
+        "age": 22,
+        "followers": [
+            "1",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Tiphanie Espin",
+        "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
+        "email": "tespin2@sitemeter.com",
+        "age": 38,
+        "followers": [
+            "4",
+            "8",
+            "9",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Minda Dixie",
+        "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+        "email": "mdixie3@csmonitor.com",
+        "age": 55,
+        "followers": [
+            "8",
+            "9",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Emilia Burwin",
+        "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+        "email": "eburwin4@de.vu",
+        "age": 21,
+        "followers": [
+            "1",
+            "10",
+            "6"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Corliss Rush",
+        "description": "Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+        "email": "crush5@free.fr",
+        "age": 43,
+        "followers": [
+            "4",
+            "9",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Leda Eagling",
+        "description": "Proin interdum mauris non ligula pellentesque ultrices.",
+        "email": "leagling6@census.gov",
+        "age": 21,
+        "followers": [
+            "4",
+            "8",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Nari Lutwyche",
+        "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "email": "nlutwyche7@ebay.com",
+        "age": 30,
+        "followers": [
+            "9",
+            "2",
+            "10"
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Hanni Spore",
+        "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
+        "email": "hspore8@whitehouse.gov",
+        "age": 34,
+        "followers": [
+            "3",
+            "1",
+            "6"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Gustav Groger",
+        "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
+        "email": "ggroger9@squarespace.com",
+        "age": 25,
+        "followers": [
+            "9",
+            "2",
+            "4",
+            "3",
+            "1"
+        ]
+    }
+]

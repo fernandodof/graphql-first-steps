@@ -1,7 +1,6 @@
 const { ApolloServer, gql } = require('apollo-server-express');
 const fs = require('fs');
 const express = require('express');
-const db = require('./database');
 
 const port = 3000;;
 

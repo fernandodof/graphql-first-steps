@@ -1,3 +1,22 @@
 type Query {
-    hello: String
+    users: [User],
+    user(id: ID!): User
+}
+
+type User {
+    id: ID!,
+    name: String,
+    description: String,
+    email: String,
+    age: Int,
+    followers: [User]
+}
+
+scalar Date
+
+type Tweet {
+    id: ID!
+    text: String,
+    date: Date
+    user: User
 }
