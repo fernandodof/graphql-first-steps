@@ -1,6 +1,8 @@
 type Query {
     users: [User],
-    user(id: ID!): User
+    user(id: ID!): User,
+    tweets(userId: ID!, last: Int): [Tweet]
+    followers: [User]
 }
 
 type User {
@@ -12,11 +14,8 @@ type User {
     followers: [User]
 }
 
-scalar Date
-
 type Tweet {
     id: ID!
     text: String,
-    date: Date
-    user: User
+    userId: String
 }
