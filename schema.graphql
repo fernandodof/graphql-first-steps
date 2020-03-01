@@ -1,21 +1,21 @@
-type Query {
-    users: [User],
-    user(id: ID!): User,
-    tweets(userId: ID!, last: Int): [Tweet]
-    followers: [User]
-}
-
 type User {
     id: ID!,
-    name: String,
+    name: String!,
     description: String,
-    email: String,
+    email: String!,
     age: Int,
     followers: [User]
 }
 
 type Tweet {
     id: ID!
-    text: String,
-    userId: String
+    text: String!,
+    userId: String!
+}
+
+type Query {
+    users: [User],
+    user(id: ID!): User,
+    tweets(userId: ID!, last: Int): [Tweet]
+    followers: [User]
 }
