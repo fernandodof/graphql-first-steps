@@ -4,7 +4,7 @@ const Query = {
     users: () => db.users.list(),
     user: (root, { id }) => db.users.get(id),
     tweets: (root, { userId, last }) => {
-        const tweets = db.tweets.list().filter(tweet => tweet.userId == userId);
+        const tweets = db.tweets.list().filter(tweet => tweet.userId === userId);
         return last ? tweets.slice(-last) : tweets;
     }
 };
