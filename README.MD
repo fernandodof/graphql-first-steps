@@ -1,6 +1,6 @@
 # First Steps with GraphQL
 
-This repository is complimentary this article I wrote here [add link here]
+This repository is complimentary this article I wrote here [First steps with GraphQL and Apollo Server](https://medium.com/betsson-group/first-steps-with-graphql-and-apollo-server-4d68ced18798)
 
 ## Running the code
 
